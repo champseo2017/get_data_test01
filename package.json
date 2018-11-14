@@ -1,31 +1,34 @@
 {
-  "name": "example-app",
-  "version": "0.1.0",
-  "private": true,
-  "repository": {},
-  "license": "MIT",
-  "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
-    "react-scripts": "2.1.1",
-    "chai": "^3.5.0",
-    "istanbul": "^0.4.5",
-    "mocha": "^5.0.3",
-    "should": "^11.2.0"
+  "name": "cucumber-js-selenium-webdriver",
+  "version": "0.0.1",
+  "description": "A starter for acceptance testing using cucumber-js and webdriver-js.",
+  "repository": {
+    "type": "git"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "mocha",
-    "eject": "react-scripts eject"
+    "test": "gulp"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "cucumber": "^0.10.2",
+    "cucumber-html-report": "^0.4.4",
+    "cucumber-html-reporter": "^0.3.1",
+    "cucumber-junit": "^1.6.0",
+    "gulp": "^3.9.1",
+    "gulp-cucumber": "0.0.22",
+    "gulp-env": "^0.4.0",
+    "gulp-install": "^0.6.0",
+    "gulp-protractor-cucumber-html-report": "^0.1.2",
+    "gulp-webdriver": "^2.0.2",
+    "jsonfile": "^2.4.0",
+    "sanitize-filename": "^1.6.0",
+    "selenium-cucumber-js": "^1.6.2",
+    "selenium-webdriver": "^2.53.2"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "dependencies": {
+    "jsonfile": "^2.4.0"
+  },
+  "main": "Gruntfile.js",
+  "author": "",
+  "license": "ISC"
 }
+
